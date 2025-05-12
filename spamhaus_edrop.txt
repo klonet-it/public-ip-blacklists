@@ -1,0 +1,6 @@
+; EOF
+; https://www.spamhaus.org/drop/edrop.txt
+; Expires: Tue, 13 May 2025 14:37:54 GMT
+; This list has been merged into https://www.spamhaus.org/drop/drop.txt
+; Spamhaus EDROP List 2025/05/12 - (c) 2025 The Spamhaus Project SLU
+; Last-Modified: Mon, 12 May 2025 14:37:54 GMT
