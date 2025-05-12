@@ -75,3 +75,24 @@ This repository aggregates public IP threat feeds from the following sources:
 - 🧱 [Spamhaus DROP / EDROP](https://www.spamhaus.org/drop/) – Highly abusive IP ranges
 - 🔥 [FireHOL Level 1](https://firehol.org/) – Consolidated list of known dangerous IPs
 - 🦠 [URLhaus](https://urlhaus.abuse.ch/) – Malware-related IPs extracted from malicious URLs
+
+## 📄 License
+
+This repository is released under the [MIT License](LICENSE).
+
+You are free to:
+
+- Use the data in personal, commercial, or research projects
+- Redistribute or integrate it in other systems
+- Modify or extend the files
+
+Please retain attribution where applicable and respect the original data source licenses when redistributing.
+
+
+## 📬 Contact
+
+Maintained by **Stefano De Nardis**
+
+📧 Email: stefano.denardis@klonet.it  
+🌐 Website: [https://www.klonet.it](https://www.klonet.it)
+
