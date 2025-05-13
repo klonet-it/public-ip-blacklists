@@ -43,7 +43,7 @@ You can fetch any file using `curl` or `wget`:
 
 ```bash
 curl -O https://raw.githubusercontent.com/klonet-it/public-ip-blacklists/main/firehol.txt
-
+```
 
 
 ## 📬 Contact
