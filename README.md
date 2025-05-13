@@ -37,6 +37,7 @@ All files are updated hourly via scheduled GitHub Actions and are generated from
 
 ---
 
+
 ## 🔗 Direct Download (raw)
 
 You can fetch any file using `curl` or `wget`:
@@ -44,7 +45,6 @@ You can fetch any file using `curl` or `wget`:
 ```bash
 curl -O https://raw.githubusercontent.com/klonet-it/public-ip-blacklists/main/firehol.txt
 ```bash
-
 
 ## 📬 Contact
 
