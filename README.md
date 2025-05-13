@@ -4,10 +4,10 @@ This repository provides a curated and automatically updated set of IP blacklist
 
 The goal is to simplify access to threat intelligence data for use in:
 
-- Firewalls
-- Intrusion detection/prevention systems
-- Abuse detection tools
-- Security enrichment pipelines
+- Firewalls  
+- Intrusion detection/prevention systems  
+- Abuse detection tools  
+- Security enrichment pipelines  
 
 All files are updated hourly via scheduled GitHub Actions and are generated from a private aggregator repository.
 
@@ -31,74 +31,67 @@ All files are updated hourly via scheduled GitHub Actions and are generated from
 
 ## 🔄 Update Schedule
 
-- The blacklists are refreshed **hourly** (respecting source limits like AbuseIPDB)
-- Only changed sources are re-processed (based on hash checks)
-- All data is version-controlled via Git commits
+- The blacklists are refreshed **hourly** (respecting source limits like AbuseIPDB)  
+- Only changed sources are re-processed (based on hash checks)  
+- All data is version-controlled via Git commits  
 
 ---
 
-
-## 🔗 Direct Download (raw)
-
-You can fetch any file using `curl` or `wget`:
-
-```bash
-curl -O https://raw.githubusercontent.com/klonet-it/public-ip-blacklists/main/firehol.txt
-```bash
-
-📒 Sources Used
+## 📒 Sources Used
 
 This repository aggregates public IP threat feeds from the following sources:
 
-    🌐 Stamparm / Ipsum
-    A curated list of hostile IPs
-    → https://github.com/stamparm/ipsum
+- 🌐 **Stamparm / Ipsum**  
+  A curated list of hostile IPs  
+  → [https://github.com/stamparm/ipsum](https://github.com/stamparm/ipsum)
 
-    🔐 CIArmy
-    Community-based list of abusive IPs
-    → https://www.ciarmy.com/
+- 🔐 **CIArmy**  
+  Community-based list of abusive IPs  
+  → [https://www.ciarmy.com/](https://www.ciarmy.com/)
 
-    ⚠️ AbuseIPDB
-    Collaborative IP threat database (API key required)
-    → https://www.abuseipdb.com/
+- ⚠️ **AbuseIPDB**  
+  Collaborative IP threat database (API key required)  
+  → [https://www.abuseipdb.com/](https://www.abuseipdb.com/)
 
-    📨 Blocklist.de
-    Brute force and abuse IPs from system logs
-    → https://www.blocklist.de/
+- 📨 **Blocklist.de**  
+  Brute force and abuse IPs from system logs  
+  → [https://www.blocklist.de/](https://www.blocklist.de/)
 
-    🧠 Emerging Threats (Proofpoint)
-    List of compromised hosts and malicious indicators
-    → https://rules.emergingthreats.net/
+- 🧠 **Emerging Threats (Proofpoint)**  
+  List of compromised hosts and malicious indicators  
+  → [https://rules.emergingthreats.net/](https://rules.emergingthreats.net/)
 
-    🛡️ Spamhaus DROP
-    Highly abusive IP ranges
-    → https://www.spamhaus.org/drop/
+- 🛡️ **Spamhaus DROP**  
+  Highly abusive IP ranges  
+  → [https://www.spamhaus.org/drop/](https://www.spamhaus.org/drop/)
 
-    🔥 FireHOL Level 1 & 2
-    Aggregated blacklists of dangerous or suspicious IPs
-    → https://github.com/firehol/blocklist-ipsets
+- 🔥 **FireHOL Level 1 & 2**  
+  Aggregated blacklists of dangerous or suspicious IPs  
+  → [https://github.com/firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets)
 
-    🦠 URLhaus (abuse.ch)
-    IPs extracted from malware distribution URLs
-    → https://urlhaus.abuse.ch/
+- 🦠 **URLhaus (abuse.ch)**  
+  IPs extracted from malware distribution URLs  
+  → [https://urlhaus.abuse.ch/](https://urlhaus.abuse.ch/)
 
-    🕵️‍♂️ Tor Project
-    Public list of TOR exit node IPs
-    → https://check.torproject.org/exit-addresses
+- 🕵️‍♂️ **Tor Project**  
+  Public list of TOR exit node IPs  
+  → [https://check.torproject.org/exit-addresses](https://check.torproject.org/exit-addresses)
 
-    💡 BinaryDefense
-    Threats collected via honeypots
-    → https://www.binarydefense.com/
+- 💡 **BinaryDefense**  
+  Threats collected via honeypots  
+  → [https://www.binarydefense.com/](https://www.binarydefense.com/)
 
-    🪡 ThreatFox (abuse.ch)
-    Indicators of compromise for malware infrastructure
-    → https://threatfox.abuse.ch/
+- 🪡 **ThreatFox (abuse.ch)**  
+  Indicators of compromise for malware infrastructure  
+  → [https://threatfox.abuse.ch/](https://threatfox.abuse.ch/)
 
-📬 Contact
+---
 
-Maintained by Stefano De Nardis
+## 📬 Contact
 
-    📧 Email: stefano.denardis@klonet.it
+Maintained by **Stefano De Nardis**
 
-    🌐 Website: https://www.klonet.it
+- 📧 Email: [stefano.denardis@klonet.it](mailto:stefano.denardis@klonet.it)  
+- 🌐 Website: [https://www.klonet.it](https://www.klonet.it)
+
 
