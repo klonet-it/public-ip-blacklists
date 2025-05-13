@@ -46,10 +46,59 @@ You can fetch any file using `curl` or `wget`:
 curl -O https://raw.githubusercontent.com/klonet-it/public-ip-blacklists/main/firehol.txt
 ```bash
 
-## 📬 Contact
+📒 Sources Used
 
-Maintained by **Stefano De Nardis**
+This repository aggregates public IP threat feeds from the following sources:
 
-📧 Email: stefano.denardis@klonet.it  
-🌐 Website: [https://www.klonet.it](https://www.klonet.it)
+    🌐 Stamparm / Ipsum
+    A curated list of hostile IPs
+    → https://github.com/stamparm/ipsum
+
+    🔐 CIArmy
+    Community-based list of abusive IPs
+    → https://www.ciarmy.com/
+
+    ⚠️ AbuseIPDB
+    Collaborative IP threat database (API key required)
+    → https://www.abuseipdb.com/
+
+    📨 Blocklist.de
+    Brute force and abuse IPs from system logs
+    → https://www.blocklist.de/
+
+    🧠 Emerging Threats (Proofpoint)
+    List of compromised hosts and malicious indicators
+    → https://rules.emergingthreats.net/
+
+    🛡️ Spamhaus DROP
+    Highly abusive IP ranges
+    → https://www.spamhaus.org/drop/
+
+    🔥 FireHOL Level 1 & 2
+    Aggregated blacklists of dangerous or suspicious IPs
+    → https://github.com/firehol/blocklist-ipsets
+
+    🦠 URLhaus (abuse.ch)
+    IPs extracted from malware distribution URLs
+    → https://urlhaus.abuse.ch/
+
+    🕵️‍♂️ Tor Project
+    Public list of TOR exit node IPs
+    → https://check.torproject.org/exit-addresses
+
+    💡 BinaryDefense
+    Threats collected via honeypots
+    → https://www.binarydefense.com/
+
+    🪡 ThreatFox (abuse.ch)
+    Indicators of compromise for malware infrastructure
+    → https://threatfox.abuse.ch/
+
+📬 Contact
+
+Maintained by Stefano De Nardis
+
+    📧 Email: stefano.denardis@klonet.it
+
+    🌐 Website: https://www.klonet.it
 
